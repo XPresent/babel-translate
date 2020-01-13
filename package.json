@@ -1,0 +1,20 @@
+{
+  "name": "babel-translate",
+  "version": "1.0.0",
+  "description": "转译JS高级语法",
+  "scripts": {
+    "babel": "npx babel temp -d dist"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "babel-preset-es3": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
